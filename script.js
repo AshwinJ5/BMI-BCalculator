@@ -1,9 +1,12 @@
 
 function clearBox(){
-    weight.value='';
-    height.value='';
-    age.value='';
-    result.value=''
+    localStorage.clear()
+
+    window.location='./index.html'
+    // weight.value='';
+    // height.value='';
+    // age.value='';
+    // result=' '
 }
 
  
